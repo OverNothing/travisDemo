@@ -1,8 +1,6 @@
 language: node_js
 node_js:
 - 9.9.0
-before_script:
-- npm run build
 after_script:
 - scp -o StrictHostKeyChecking=no ./src/app.js kuaiyun:/root/code
 before_install:

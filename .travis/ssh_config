@@ -1,0 +1,13 @@
+User root
+Host kuaiyun
+HostName 122.144.119.66
+Port 22
+StrictHostKeyChecking no
+IdentityFile ~/.ssh/wangxudong_rsa
+IdentitiesOnly yes
+Protocal 2
+Compression yes
+ServerAliveInterval 60
+ServerAliveCountMax 20
+LogLevel INFO
+
